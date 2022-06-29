@@ -33,6 +33,9 @@ const createIntern = async function (req, res) {
             if (uniqueName.mobile == mobile) return res.status(400).send({ stastus: false, message: "mobile is already exist" })
 
         }
+        
+        
+
 
 
         // console.log(collegeName)
